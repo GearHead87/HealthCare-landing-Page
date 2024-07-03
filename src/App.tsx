@@ -2,7 +2,7 @@ import HomePage from "./Page/Home/HomePage";
 
 function App() {
 	return (
-		<div className="container mx-auto border-2">
+		<div className="container mx-auto">
 			<HomePage></HomePage>
 		</div>
 	);

@@ -1,3 +1,4 @@
+import { MdArrowOutward } from "react-icons/md";
 const NavBar = () => {
 	const navMenu = (
 		<>
@@ -43,7 +44,7 @@ const NavBar = () => {
 						{navMenu}
 					</ul>
 				</div>
-				<a className="btn btn-ghost text-xl">daisyUI</a>
+				<a className="btn btn-ghost text-xl"><img src="/src/assets/logo dark.png"/></a>
 			</div>
 			<div className="navbar-center hidden lg:flex">
 				<ul className="menu menu-horizontal px-1">
@@ -51,7 +52,7 @@ const NavBar = () => {
 				</ul>
 			</div>
 			<div className="navbar-end">
-				<a className="btn">Button</a>
+				<a className="btn outline bg-white">Appointment <MdArrowOutward className="text-2xl"/></a>
 			</div>
 		</div>
 	);
