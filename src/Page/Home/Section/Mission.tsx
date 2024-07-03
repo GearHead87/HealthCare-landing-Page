@@ -1,12 +1,12 @@
 import { MdArrowOutward } from 'react-icons/md';
-import doctorImg from '../../../assets/Rectangle 24.png'
+import doctorImg from '../../../assets/Rectangle 24.png';
 
 const Mission = () => {
 	return (
-		<div className='grid grid-cols-2 mt-24'>
-			<div className='max-w-lg space-y-4 flex flex-col justify-between'>
-				<p className='py-2 px-4 border-2 border-black w-fit rounded-3xl'>Who we are</p>
-				<h1 className='text-3xl font-bold'>We Help To Get Soulions</h1>
+		<div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-24">
+			<div className="max-w-lg space-y-4 flex flex-col justify-between">
+				<p className="py-2 px-4 border-2 border-black w-fit rounded-3xl">Who we are</p>
+				<h1 className="text-3xl font-bold">We Help To Get Soulions</h1>
 				<p>
 					We are proud to be a trusted healthcare provider in our community, and we look
 					forward to serving you and your family with excellence, integrity, and
@@ -18,15 +18,15 @@ const Mission = () => {
 					Learn more <MdArrowOutward className="text-2xl " />
 				</a>
 			</div>
-			<div className='relative'>
-				<div className='bg-[#343268] text-white rounded-2xl max-w-sm py-7 px-4 absolute bottom-0 -left-20'>
-					<p className='text-2xl '>Our mission is simple</p>
+			<div className="relative">
+				<div className="bg-[#343268] text-white rounded-2xl scale-75 lg:scale-100 max-w-sm py-7 px-4 absolute bottom-0 -left-10 lg:bottom-0 lg:-left-20">
+					<p className="text-2xl ">Our mission is simple</p>
 					<p>
 						To provide high-quality healthcare services that are accessible,
 						personalized, and patient-centered.
 					</p>
 				</div>
-                <img src={doctorImg}/>
+				<img src={doctorImg} />
 			</div>
 		</div>
 	);

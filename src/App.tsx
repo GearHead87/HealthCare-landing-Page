@@ -1,9 +1,13 @@
-import HomePage from "./Page/Home/HomePage";
+import HomePage from './Page/Home/HomePage';
+import Footer from './components/shared/Footer';
 
 function App() {
 	return (
-		<div className="container mx-auto">
-			<HomePage></HomePage>
+		<div className="">
+			<div className="container mx-auto">
+				<HomePage />
+			</div>
+			<Footer />
 		</div>
 	);
 }

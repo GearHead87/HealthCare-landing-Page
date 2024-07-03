@@ -5,8 +5,8 @@ import serviesIMG3 from '../../../assets/service3.png';
 
 const Service = () => {
 	return (
-		<div className="mt-32">
-			<div className="grid grid-cols-2 gap-7">
+		<div className="mt-10 lg:mt-32">
+			<div className="grid grid-cols-1 lg:grid-cols-2 gap-7">
 				<div className="max-w-lg space-y-4 flex flex-col justify-between">
 					<p className="py-2 px-4 border-2 border-black w-fit rounded-3xl">Who we are</p>
 					<h1 className="text-3xl font-bold">We Help To Get Soulions</h1>
@@ -22,7 +22,7 @@ const Service = () => {
 					</a>
 				</div>
 				<div className="relative">
-					<div className="bg-[#020043] bg-opacity-60 max-w-sm text-white px-4 py-10 rounded-3xl absolute bottom-5 left-5">
+					<div className="bg-[#020043] bg-opacity-60 max-w-sm text-white px-4 py-10 scale-75 lg:scale-100 rounded-3xl absolute -bottom-2 lg:bottom-5 -left-10 lg:left-5">
 						<p className="text-2xl font-semibold mb-2">Advanced Technology</p>
 						<p>
 							Our surgeons are trained in the latest robotic surgical techniques,
@@ -33,7 +33,7 @@ const Service = () => {
 					<img src={serviesIMG1} className="rounded-3xl" />
 				</div>
 				<div className="relative">
-					<div className="bg-[#020043] bg-opacity-60 max-w-sm text-white px-4 py-10 rounded-3xl absolute bottom-5 left-5">
+					<div className="bg-[#020043] bg-opacity-60 max-w-sm text-white px-4 py-10 scale-75 lg:scale-100 rounded-3xl absolute -bottom-2 lg:bottom-5 -left-10 lg:left-5">
 						<p className="text-2xl font-semibold mb-2">Online Doctor Meet</p>
 						<p>
 							Our surgeons are trained in the latest robotic surgical techniques,
@@ -44,7 +44,7 @@ const Service = () => {
 					<img src={serviesIMG2} className="rounded-3xl" />
 				</div>
 				<div className="relative">
-					<div className="bg-[#020043] bg-opacity-60 max-w-sm text-white px-4 py-10 rounded-3xl absolute bottom-5 left-5">
+					<div className="bg-[#020043] bg-opacity-60 max-w-sm text-white px-4 py-10 scale-75 lg:scale-100 rounded-3xl absolute -bottom-2 lg:bottom-5 -left-10 lg:left-5">
 						<p className="text-2xl font-semibold mb-2">Consultancy your health</p>
 						<p>
 							Our surgeons are trained in the latest robotic surgical techniques,

@@ -52,7 +52,7 @@ const NavBar = () => {
 				</ul>
 			</div>
 			<div className="navbar-end">
-				<a className="btn outline bg-white">Appointment <MdArrowOutward className="text-2xl"/></a>
+				<a className="btn border-2 rounded-xl border-black bg-white">Appointment <MdArrowOutward className="text-2xl"/></a>
 			</div>
 		</div>
 	);
