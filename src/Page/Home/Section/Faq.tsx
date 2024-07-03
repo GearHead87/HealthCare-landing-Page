@@ -9,7 +9,7 @@ const Faq = () => {
 	return (
 		<div className="mt-10">
 			<div className="space-y-4 flex flex-col justify-between mb-10">
-				<p className="py-2 px-4 border-2 border-black w-fit rounded-3xl">Faq</p>
+				<p className="py-2 px-4 border-2 border-black w-fit rounded-3xl">FAQ</p>
 				<h1 className="text-3xl font-bold">Frequntly Asked Question</h1>
 			</div>
 			<div>

@@ -4,9 +4,9 @@ import logo from '../../../assets/logo light.png';
 
 const Offer = () => {
 	return (
-		<div>
+		<div className='mt-10 lg:mt-32'>
 			<div
-				className="Rectangle6 mx-auto flex flex-col justify-center gap-6 mt-4 p-4 sm:px-8 md:px-16 relative"
+				className="Rectangle6 mx-auto flex flex-col justify-center gap-6  p-4 sm:px-8 md:px-16 relative"
 				style={{
 					width: '100%',
 					maxWidth: 1160,

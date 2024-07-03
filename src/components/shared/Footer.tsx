@@ -2,7 +2,7 @@ import logo from '../../assets/logo light.png';
 import social from '../../assets/social.svg';
 const Footer = () => {
 	return (
-		<div className='mt-10 lg:mt-36'>
+		<div className='mt-10 lg:mt-32'>
 			<footer className="footer bg-[#020043] text-white p-10">
 				<aside>
 					<img src={logo} />
