@@ -5,7 +5,7 @@ import stars from '../../../assets/stars.svg';
 
 const Testimonial = () => {
 	return (
-		<div className="mt-10">
+		<div className="mt-10 lg:mt-32">
 			<div className="space-y-4 flex flex-col justify-between mb-10">
 				<p className="py-2 px-4 border-2 border-black w-fit rounded-3xl">Testimonial</p>
 				<h1 className="text-3xl font-bold">What they say about us</h1>

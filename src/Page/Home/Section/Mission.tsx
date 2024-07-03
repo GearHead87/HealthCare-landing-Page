@@ -3,7 +3,7 @@ import doctorImg from '../../../assets/Rectangle 24.png';
 
 const Mission = () => {
 	return (
-		<div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-24">
+		<div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10 lg:mt-32">
 			<div className="max-w-lg space-y-4 flex flex-col justify-between">
 				<p className="py-2 px-4 border-2 border-black w-fit rounded-3xl">Who we are</p>
 				<h1 className="text-3xl font-bold">We Help To Get Soulions</h1>

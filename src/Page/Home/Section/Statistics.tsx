@@ -6,7 +6,7 @@ import avater from '../../../assets/Group 7.svg'
 
 const Statistics = () => {
 	return (
-		<div className="bg-gray-100 py-12 mt-4">
+		<div className="bg-gray-100 py-12 mt-10 lg:mt-32">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="text-center">
 					<h2 className="text-5xl font-extrabold text-gray-900">

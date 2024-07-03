@@ -1,7 +1,7 @@
 import BackgroundImg from '../../../assets/Rectangle 5.png';
 const Hero = () => {
 	return (
-		<div>
+		<div className='mt-10'>
 			<div
 				className="mx-auto mt-4 w-full max-w-7xl h-60 sm:h-80 md:h-96 lg:h-[470px] rounded-3xl"
 				style={{
