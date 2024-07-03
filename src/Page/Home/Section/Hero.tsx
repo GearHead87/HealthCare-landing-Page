@@ -8,7 +8,7 @@ const Hero = () => {
 					width: 1160,
 					height: 470,
 					background:
-						`linear-gradient(179deg, rgba(0, 193, 157, 0) 0%, rgba(2, 0, 67, 0.47) 100%) , url(${BackgroundImg})`,
+						`linear-gradient(179deg, rgba(0, 193, 157, 0) -25.42%, rgba(2, 0, 67, 0.47) 107.11%) , url(${BackgroundImg})`,
 					borderRadius: 48,
 				}}
 			/>
