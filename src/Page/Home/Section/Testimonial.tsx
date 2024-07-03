@@ -10,7 +10,7 @@ const Testimonial = () => {
 				<p className="py-2 px-4 border-2 border-black w-fit rounded-3xl">Testimonial</p>
 				<h1 className="text-3xl font-bold">What they say about us</h1>
 			</div>
-			<div className="grid grid-cols-3 gap-6">
+			<div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
 				{/* First Testimonial */}
 				<div className="space-y-4 p-5 rounded-lg bg-[#FFFFF5] flex flex-col justify-around">
 					<h2 className="text-lg font-semibold">Expertise and Compassion Combined</h2>

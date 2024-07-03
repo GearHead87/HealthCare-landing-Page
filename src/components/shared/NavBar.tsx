@@ -1,4 +1,4 @@
-import { MdArrowOutward } from "react-icons/md";
+import { MdArrowOutward } from 'react-icons/md';
 const NavBar = () => {
 	const navMenu = (
 		<>
@@ -44,15 +44,17 @@ const NavBar = () => {
 						{navMenu}
 					</ul>
 				</div>
-				<a className="btn btn-ghost text-xl"><img src="/src/assets/logo dark.png"/></a>
+				<a className="scale-75 lg:scale-100 lg:text-xl">
+					<img src="/src/assets/logo dark.png" />
+				</a>
 			</div>
 			<div className="navbar-center hidden lg:flex">
-				<ul className="menu menu-horizontal px-1">
-					{navMenu}
-				</ul>
+				<ul className="menu menu-horizontal px-1">{navMenu}</ul>
 			</div>
 			<div className="navbar-end">
-				<a className="btn border-2 rounded-xl border-black bg-white">Appointment <MdArrowOutward className="text-2xl"/></a>
+				<a className="btn border-2 scale-75 md:scale-100 rounded-xl border-black bg-white">
+					Appointment <MdArrowOutward className="text-2xl" />
+				</a>
 			</div>
 		</div>
 	);
