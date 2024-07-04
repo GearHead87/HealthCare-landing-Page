@@ -1,3 +1,4 @@
+import logo from '../../assets/logo dark.png';
 import { MdArrowOutward } from 'react-icons/md';
 const NavBar = () => {
 	const navMenu = (
@@ -45,7 +46,7 @@ const NavBar = () => {
 					</ul>
 				</div>
 				<a className="scale-75 lg:scale-100 lg:text-xl">
-					<img src="/src/assets/logo dark.png" />
+					<img src={logo} />
 				</a>
 			</div>
 			<div className="navbar-center hidden lg:flex">
